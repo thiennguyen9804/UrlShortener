@@ -1,0 +1,5 @@
+@UrlShortener_HostAddress = http://localhost:5046
+
+POST {{UrlShortener_HostAddress}}/api/v1/data/shorten?longUrl=https://learn.microsoft.com/en-us/ef/ef6/modeling/code-first/workflows/new-database#5-dealing-with-model-changes
+Accept: application/json
+
